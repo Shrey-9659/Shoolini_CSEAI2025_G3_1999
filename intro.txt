@@ -1,0 +1,40 @@
+How to use a tag
+<tagName>Content</tagName>
+
+heading tags : 
+h1
+h2
+h3
+h4
+h5
+h6
+
+paragraph tag : 
+p
+
+br -> break
+hr -> horizontal ruler
+
+img -> image tag, takes 2 attribute : src(for source of the image)
+and alt(for alternate text). We can also add height and width attribute
+to adjust the measurements accordingly.
+
+a -> anchor tag
+
+Formatting tags : 
+b -> bold
+strong
+
+i -> italic
+em -> emphasized
+
+ins -> inserted
+del -> deleted
+
+mark
+
+sub -> subscript
+sup -> superscript
+
+block : h1-h6, p, hr 
+inline : img, a, b, strong, i, em, mark, sub, sup, ins, del
