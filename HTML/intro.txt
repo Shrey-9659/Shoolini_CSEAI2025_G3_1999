@@ -23,18 +23,18 @@ a -> anchor tag
 
 Formatting tags : 
 b -> bold
-strong
-
+strong ->strong
 i -> italic
 em -> emphasized
-
+big -> big
+small -> small
 ins -> inserted
 del -> deleted
-
 mark
-
 sub -> subscript
 sup -> superscript
 
 block : h1-h6, p, hr 
 inline : img, a, b, strong, i, em, mark, sub, sup, ins, del
+
+https://github.com/Shrey-9659/Shoolini_CSEAI2025_G3_1999
