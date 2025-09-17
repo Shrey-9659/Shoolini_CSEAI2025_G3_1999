@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="">
+      <!-- label, input, button -->
+      <label for="name">Full Nume : </label>
+      <input
+        type="text"
+        name="full_name"
+        id="name"
+        placeholder="Enter your name"
+        value=""
+      />
+      <br />
+      <label for="num">Phone : </label>
+      <input
+        type="tel"
+        name="pnumber"
+        id="num"
+        placeholder="Enter your number"
+      />
+      <br />
+      <label for="year">Age : </label>
+      <input type="number" name="age" id="year" placeholder="Enter your age" />
+      <br />
+      <label for="email">Email : </label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="Enter your email"
+      />
+      <br />
+      <label for="pass">Password : </label>
+      <input
+        type="password"
+        name="password"
+        id="pass"
+        placeholder="Enter your password"
+      />
+      <br>
+      <label>Choose your gender :</label> <br>
+      <label for="male">Male </label>
+      <input type="radio" name="gender" id="male" value="male">
+      <label for="female">Female </label>
+      <input type="radio" name="gender" id="female" value="female">
+      <label for="others">Others </label>
+      <input type="radio" name="gender" id="others" value="others">
+      <br>
+      <label>Hobbies : </label><br>
+      <label for="cric">Cricket</label>
+      <input type="checkbox" name="hobbies" id="cric" value="Cricket" checked>
+      <label for="basket">Basketball</label>
+      <input type="checkbox" name="hobbies" id="basket" value="Basketball" disabled>
+      <label for="volley">Volleyball</label>
+      <input type="checkbox" name="hobbies" id="volley" value="Volleyball">
+      <br>
+      <label for="food">Choose your favourite food : </label>
+      <select name="fav_food" id="food">
+        <option value="" disabled selected>Select an option</option>
+        <optgroup label="Veg">
+          <option value="pani_puri">Pani Puri</option>
+          <option value="paneer">Paneer</option>
+        </optgroup>
+        <optgroup label="Non-Veg">
+          <option value="butter_chicken">Butter Chicken</option>
+          <option value="chicken_biryani">Chicken Biryani</option>
+        </optgroup>
+        <optgroup label="Drinks">
+          <option value="tea">Tea</option>
+          <option value="coffee">Coffee</option>
+        </optgroup>
+      </select><br>
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+    </form>
+  </body>
+</html>
