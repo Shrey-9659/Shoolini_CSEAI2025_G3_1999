@@ -1,41 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <center>
-        <h1>Understanding forms in HTML</h1>
+      <h1>Understanding forms in HTML</h1>
     </center>
-    <hr>
+    <hr />
     <form>
-        <!-- input, label, button -->
-         <!-- input:text -->
-        <label for="fName">Full Name : </label>
-        <input
-         type="text"
-         name="full_name"
-         id="fName"
-         placeholder="Full name"
-         value=""
-        > 
-        <br>
-        <label for="pnum">Phone : </label>
-        <input type="tel" name="phone" id="pnum">
-<br>
-        <label for="year">Year : </label>
-        <input type="number" name="year" id="year">
-<br>
-        <label for="email">Email : </label>
-        <input type="email" name="email" id="email">
-<br>
-        <label for="pass">Password : </label>
-        <input type="password" name="password" id="pass">
-<br>
-        <button type="submit">Submit</button>
-        <input type="reset" value="Reset">
+      <!-- input, label, button -->
+      <!-- input:text -->
+      <label for="fName">Full Name : </label>
+      <input
+        type="text"
+        name="full_name"
+        id="fName"
+        placeholder="Full name"
+        value=""
+      />
+      <br />
+      <label for="pnum">Phone : </label>
+      <input type="tel" name="phone" id="pnum" />
+      <br />
+      <label for="year">Year : </label>
+      <input type="number" name="year" id="year" />
+      <br />
+      <label for="email">Email : </label>
+      <input type="email" name="email" id="email" />
+      <br />
+      <label for="pass">Password : </label>
+      <input type="password" name="password" id="pass" />
+      <br />
+      <p>Choose your gender :</p>
+      <label for="male">Male</label>
+      <input type="radio" name="gender" id="male" value="male" />
+      <label for="female">Female</label>
+      <input type="radio" name="gender" id="female" value="female" />
+      <label for="others">Others</label>
+      <input type="radio" name="gender" id="others" value="others" />
+
+      <br />
+      <p>Choose your hobbies :</p>
+      <label for="read">Reading</label>
+      <input type="checkbox" name="hoobies" id="read" value="reading" />
+      <label for="game">Gaming</label>
+      <input type="checkbox" name="hoobies" id="game" value="gaming" />
+      <label for="code">Coding</label>
+      <input type="checkbox" name="hoobies" id="code" value="coding" />
+
+      <label for="food">Select your fav food : </label>
+      <select name="fav_food" id="food">
+        <option disabled selected>Select your option</option>
+        <optgroup label="Non-Veg">
+          <option value="butter_chicken">Butter Chicken Masala</option>
+        </optgroup>
+        <optgroup label="Veg">
+          <option value="roti_sabji">Roti Sabji</option>
+          <option value="lacha_parantha">Lacha Parantha</option>
+          <option value="pani_puri">Pani Puri</option>
+        </optgroup>
+        <optgroup label="Drinks">
+          <option value="mocktail">Mocktail</option>
+          <option value="cold_coffee">Cold Coffee</option>
+        </optgroup>
+      </select>
+      <br />
+      <button type="submit">Submit</button>
+      <input type="reset" value="Reset" />
     </form>
-</body>
+  </body>
 </html>
