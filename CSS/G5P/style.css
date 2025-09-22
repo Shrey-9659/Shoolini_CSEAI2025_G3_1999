@@ -1,0 +1,53 @@
+*{
+    font-family: "Montserrat", sans-serif, Arial, Helvetica;
+}
+
+#textDecoration{
+    /* text-decoration: underline; */
+    /* text-decoration: overline; */
+    /* text-decoration: line-through; */
+    /* text-decoration: none; */
+}
+#textdeco{
+    /* text-decoration: none;
+    color: black; */
+}
+
+#fontone{
+    font-weight: 100;
+    font-size: 16px;
+}
+#fonttwo{
+    font-weight: 300;
+    font-size: 20px;
+}
+#fontthree{
+    font-weight: 600;
+    font-size: 25px;
+}
+#fontfour{
+    font-weight: 900;
+    font-size: 30px
+}
+
+/* Text Transform */
+#fontone{
+    /* text-transform: capitalize; */
+    /* text-transform: uppercase; */
+    /* text-transform: lowercase; */
+    /* text-transform: none; */
+}
+/* Box Model */
+#boxmodel{
+    height: 250px;
+    width: 250px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    /* margin: 16px; */
+    /* margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 40px; */
+    margin: 10px 20px 30px 40px;
+}
