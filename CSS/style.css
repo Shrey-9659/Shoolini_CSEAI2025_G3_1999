@@ -1,0 +1,41 @@
+/* selector{
+    property : value;
+    property : value;
+} */
+
+/* Universal Selector - will be applied on the complete page */
+/* *{
+    background-color: gray;
+} */
+
+/* Element selector */
+/* h1{
+    background-color: green;
+} */
+
+/* Id selector */
+/* #unique{
+    background-color: blue;
+} */
+/* Class selector */
+/* .common{
+    background-color: magenta;
+} */
+/* Element grouping */
+/* h1, #unique, .common{
+    color: white;
+} */
+
+/* h1{
+    background-color: black;
+    color: white;
+} */
+
+/* text-aligns */
+h1{
+    /* text-align: left; */
+    /* text-align: center; */
+    /* text-align: right; */
+    /* text-align: start; */
+    /* text-align: end; */
+}
