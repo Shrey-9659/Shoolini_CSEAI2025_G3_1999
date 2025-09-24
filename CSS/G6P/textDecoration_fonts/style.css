@@ -1,0 +1,35 @@
+*{
+      font-family: "Montserrat", sans-serif, Arial, Helvetica;
+}
+
+/* #textDeco{
+    text-align: center;
+    text-decoration: underline;
+    text-decoration: overline;
+    text-decoration: line-through;
+}
+a{
+    text-decoration: none;
+} */
+
+.one{
+    font-weight:100;
+    font-size: 16px;
+}
+.two{
+    font-weight: 300;
+    font-size: 20px;
+}
+.three{
+    font-weight: 600;
+    font-size: 22px;
+}
+.four{
+    font-weight: 900;
+    font-size: 25px;
+    /* text-transform: capitalize; */
+    /* text-transform: uppercase; */
+    text-transform: lowercase;
+    /* text-transform: none; */
+}
+
