@@ -1,0 +1,38 @@
+.parent{
+    height: 90vh;
+    width: 90vw;
+    background-color: beige;
+    border: 2px solid black;
+    margin: 1rem 1rem 1rem 3rem;
+    display: flex;
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    /* justify-content: start; */
+    /* justify-content: end; */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+    /* justify-content: space-around; */
+    /* flex-wrap: nowrap; */
+    /* flex-wrap: wrap; */
+    flex-wrap: wrap-reverse;
+}
+
+.child{
+    height: 150px;
+    width: 150px;
+    background-color: black;
+    margin: 1rem;
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    
+}
+
+#box3{
+    background-color: purple;
+    color: white;
+    order: 123456789;
+}
