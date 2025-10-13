@@ -12,9 +12,9 @@ body{
     width: 90vw;
     padding: 1rem;
     display: grid;
-    grid-template-columns: 1fr 1fr;
     gap: 0.5rem;
 }
+
 
 .child{
     border: 1px solid black;
@@ -23,6 +23,17 @@ body{
     font-size: 2rem;
 }
 
+@media(max-width: 600px){
+    #aside{
+        display: none;
+    }
+}
+
+
+@media(min-width : 600px){
+.parent{
+        grid-template-columns: 1fr 1fr;
+}
 #header, #nav, #footer{
     grid-column-start: 1;
     grid-column-end: 3;
@@ -34,4 +45,4 @@ body{
     grid-column-start: 2;
     grid-column-end: 3;
 }
-
+}
