@@ -24,7 +24,3 @@
 // const name = "Shrey"
 // const name = "Rohit" -- redeclaration not possible
 // name = "Rohit" -- reinitialization possible
-
-fetch("https://jsonplaceholder.typicode.com/users")
-.then(rawData => rawData.json())
-.then(res => console.log(res))

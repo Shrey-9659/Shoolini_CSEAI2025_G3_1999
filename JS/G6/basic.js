@@ -33,14 +33,24 @@
 
 // DataTypes : 
 // Primitive -->
-// Number
-// String
-// BigInt
-// Boolean
-// Null
-// undefined
+// Number(number) -- 1, -1, 1.234
+// String(string) -- 'char', "char", `char`
+// BigInt(bigInt) -- 1234567876543234567654323456n
+// Boolean(boolean) -- true, false
+// Null(object) -- void space
+// undefined(undefined) -- not defined
 // symbol
 
 // Non - Primitive -->
 // Object {}
 // Array [1,2,3,4,5], [1,"Shrey", undefined, null, true]
+
+// console.log(null == 0) -- false
+// console.log(null > 0)
+// console.log(null < 0)
+// console.log(null >= 0) -- true
+// console.log(null <= 0)
+
+
+let sample = "1234"
+console.log(typeof(sample))
